@@ -56,3 +56,23 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation li {
+    color: white;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+/** check css-tricks website **/
