@@ -3,6 +3,7 @@
 
 :root{
     --primary-color: #22c55e;
+    --dark-gray: #6b7280;
 }
 
 body {
@@ -86,3 +87,21 @@ hr {
 }
 
 /** check css-tricks website **/
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding: 1rem;
+    color: var(--dark-gray);
+
+}
